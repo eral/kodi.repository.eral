@@ -5,4 +5,13 @@
 		<checksum>https://raw.githubusercontent.com/eral/kodi.repository.eral/download/addons.xml.hash</checksum>
 		<datadir>https://raw.githubusercontent.com/eral/kodi.repository.eral/download/resources/</datadir>
 	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>ERAL Repository for Kodi</summary>
+		<description>ERAL Repository for Kodi</description>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/meta/icon.png</icon>
+			<fanart>resources/meta/fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon>
