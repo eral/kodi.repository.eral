@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addons>
-	<addon id="plugin.video.u-next-animefree-eral-test" name="U-NEXT animefree (ERAL-test)" version="0.0.1" provider-name="ERAL">
+	<addon id="plugin.video.u-next-animefree-eral-test" name="U-NEXT animefree (ERAL-test)" version="0.0.2" provider-name="ERAL">
 		<requires>
-			<import addon="xbmc.python" version="2.26.0" />
-			<import addon="xbmc.gui" version="5.14.0" />
-			<import addon="xbmc.addon" version="17.9.910" />
+			<import addon="xbmc.python" version="3.0.0" />
+			<import addon="xbmc.gui" version="5.15.0" />
+			<import addon="xbmc.addon" version="18.9.701" />
 			<import addon="script.module.inputstreamhelper" version="0.5.2" />
 			<import addon="script.module.requests" version="2.22.0" />
 			<import addon="script.module.cwebdriverinstaller-eral-test" version="0.0.1" />
@@ -15,7 +15,7 @@
 		<extension point="xbmc.addon.metadata">
 			<summary lang="ja_JP">U-NEXTアニメ最新話無料配信用ビデオアドオンテスト</summary>
 			<description lang="ja_JP">U-NEXTアニメ最新話無料配信用ビデオアドオンテスト</description>
-			<disclaimer lang="ja_JP"></disclaimer>
+			<disclaimer lang="ja_JP" />
 			<language>ja</language>
 			<platform>all</platform>
 			<source>https://github.com/eral/kodi.plugin.video.u-next-animefree-eral-test</source>
